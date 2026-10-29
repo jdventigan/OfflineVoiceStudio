@@ -1,0 +1,40 @@
+OFFLINE VOICE STUDIO
+User Guide
+
+Created by Jerome Ventigan
+Powered by Visual Studio Code
+
+OVERVIEW
+Record microphone or Windows speaker audio, transcribe local audio/video files, and save the transcript. Processing stays on this computer. The app does not download models or upload audio.
+
+RECORD SYSTEM AUDIO
+1. Choose the System audio source for the speaker you are using.
+2. Play the audio on the computer and select Start Recording.
+3. Watch the live waveform and recording progress.
+4. Select Stop Recording. The progress bar tracks audio being written and reports when the WAV is saved.
+
+RECORD MICROPHONE AUDIO
+1. Choose a Microphone input source.
+2. Select Start Recording, speak, then select Stop Recording.
+3. Recordings are saved in Documents\Offline Voice Studio\Recordings.
+
+TRANSCRIBE AN AUDIO OR VIDEO FILE
+1. Select Open Audio/Video and choose a local file. Common audio formats and MP4, MKV, MOV, AVI, WebM, WMV, MPEG, M4V, and 3GP video formats are supported when the container has a readable audio track.
+2. Leave Music / lyrics unchecked for speech. Enable it for sung vocals.
+3. Select Transcribe Recording. The progress indicator shows preparation, speaker detection/model loading, and estimated transcription progress.
+4. Select Save Transcript and choose a local destination for the text file.
+
+SPEAKER LABELS
+Speech transcripts are labeled Speaker 1, Speaker 2, and so on when local diarization detects speakers. If no speakers are detected, transcription continues and labels are shown as Speaker unknown. Music / lyrics mode skips speaker detection and labels segments Music / vocals.
+
+TEXT TO VOICE
+Use the Voice Output panel to read the transcript aloud with an installed Windows voice. Choose a voice, adjust rate and volume, and select Speak Transcript or Speak Selection. Use Stop Speaking to cancel. Save Spoken Audio exports the speech as a WAV file. The spoken sentence is highlighted in the transcript while it plays.
+
+OFFLINE MODEL AND RUNTIME
+The installer includes the Faster-Whisper model, FFmpeg, speaker-detection runtime, and ONNX speaker models. No model folder selection or internet connection is required. User-selected audio, model, recording, and transcript paths must be on a local drive; network paths are rejected.
+
+TROUBLESHOOTING
+- If the waveform stays flat, check the selected audio source and confirm that computer audio is playing or the microphone is active.
+- If no speech is detected, try Music / lyrics mode for singing or check that the selected source contains audible speech.
+- Video transcription uses the audio track only; it does not read text displayed in the picture.
+- For support, note the error shown and the selected audio format.

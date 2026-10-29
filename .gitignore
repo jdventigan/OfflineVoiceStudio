@@ -1,0 +1,15 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+packaging/app_dist/
+packaging/app_build/
+packaging/installer_output/
+*.log
+*.wav
+models/
+*.egg-info/
+.vscode/
+*.err
+

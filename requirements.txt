@@ -1,0 +1,5 @@
+faster-whisper>=1.1.1
+av>=11,<19
+sounddevice>=0.5.1
+soundfile>=0.13.1
+soundcard>=0.4.6
