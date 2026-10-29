@@ -19,7 +19,7 @@ MinVersion=10.0
 InfoAfterFile=..\docs\USER_GUIDE.txt
 OutputDir=installer_output
 OutputBaseFilename=OfflineVoiceStudio-Setup
-Compression=lzma
+Compression=zip
 SolidCompression=no
 WizardStyle=modern
 
