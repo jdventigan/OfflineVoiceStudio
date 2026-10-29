@@ -1,0 +1,17 @@
+﻿Third-Party Licenses
+
+This project uses the following open-source libraries and tools:
+
+- Faster-Whisper (MIT)
+- CTranslate2 (MIT)
+- sounddevice (MIT)
+- soundfile (BSD-3-Clause)
+- soundcard (BSD-3-Clause)
+- onnxruntime (MIT)
+- PyAV (LGPL)
+- PyInstaller (GPL v2+ with exception)
+- Inno Setup (free for commercial use)
+- Windows SAPI5 (Microsoft, provided by Windows)
+- FFmpeg (GPL v3) - bundled as a separate executable; source available at https://ffmpeg.org
+
+Please refer to each project's repository for full license text.

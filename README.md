@@ -1,6 +1,6 @@
 # Offline Voice Studio
 
-A Windows desktop app for recording microphone or system playback audio and transcribing local audio or video files. For video, it transcribes the audio track only; it does not perform OCR on on-screen text. Created by Jerome Ventigan and powered by Visual Studio Code. The app does not download models or send audio to a service.
+A Windows desktop app for recording microphone or system playback audio, transcribing local audio or video files, and converting text to speech. For video, it transcribes the audio track only; it does not perform OCR on on-screen text. Created by Jerome Ventigan. Processing stays on this computer: the app does not download models or send audio to a service.
 
 ## Requirements
 

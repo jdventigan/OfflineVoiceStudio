@@ -351,7 +351,7 @@ class OfflineVoiceStudio:
         ).pack(side="left", fill="x", expand=True)
         tk.Label(
             status_bar,
-            text="Jerome Ventigan | Powered by Visual Studio Code",
+            text="Jerome Ventigan",
             bg="#dfe8e2",
             fg="#54645e",
             anchor="e",
